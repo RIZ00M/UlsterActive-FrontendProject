@@ -36,9 +36,6 @@ Built With
 
     Draw.io - Wireframing and design
 
-
-![UlsterActive Website Screenshot](Website/Images/MainDesign.png)
-
 Project Structure
 
     MainWebsite/: The core folder containing all files for the live site.
