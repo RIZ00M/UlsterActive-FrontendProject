@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ==================================================================
+  Timetable page
+  UlsterActive Belfast - Year 1 Coursework - Group 2
+=================================================================== -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UlsterActive Yorkgate</title>
+    <link rel="icon" type="image/png" href="../Images/Favicon.ico">
+
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="../CSS/styles.css"/>
+
+    <!-- Google Fonts Source: Oswald and Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- jQuery Source -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Javascript Source -->
+    <script src="../JavaScript/homePageScripts.js"></script>
+    <script src="../JavaScript/searchbar.js"></script>
+</head>
+
+<body>
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <nav id="navigation-bar">
+
+        <!-- Navigation Logo -->
+        <div class="navigation-logo">
+            <a href="../home.html">Ulster<span>Active</span></a>
+        </div>
+
+        <!-- Navigation links -->
+        <ul id="navigation-links">  
+            
+            <!-- Home -->
+            <li><a href="../home.html">HOME</a></li>
+
+            <!-- Gyms Dropdown -->
+            <li class="has-dropdown">
+                <a href="timetables.html">GYMS ▾</a>
+                <ul class="dropdown">
+                    <li><a href="finaghy.html">Finaghy</a></li>
+                    <li><a href="yorkgate.html">Cityside (Yorkgate)</a></li>
+                    <li><a href="timetables.html">Class Timetable</a></li>
+                </ul>
+            </li>
+
+            <!-- About Dropdown -->
+            <li class="has-dropdown">
+                <a href="about.html">ABOUT ▾</a>
+                <ul class="dropdown">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
+
+            <!-- Membership Form -->
+            <li><a href="membership.html">MEMBERSHIPS</a></li>
+
+            <!-- Contact US Form -->
+            <li><a href="contact.html">CONTACT US</a></li>
+
+        </ul>
+
+        <!-- Search and Join Now -->
+        <div class="nav-actions">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search pages...">
+                <ul id="autocomplete-list" class="autocomplete-list"></ul>
+            </div>
+            <a href="membership.html" class="join-now">JOIN NOW</a>
+        </div>
+
+    </nav>
+
+    <!-- ==================== YORKGATE PAGE ==================== -->
+    <header>
+        <section class="page-banner">
+            <h1>CITYSIDE / YORKGATE</h1>
+            <p>One of our many premier fitness locations in Belfast</p>
+        </section>
+    </header>
+
+    <main>
+        <section id="facilities">
+            <div class="section-title">
+                <h2>GALLERY</h2>
+            </div>
+
+            <div class="facility-grid">   
+                <p>
+                    Founded in 2012, our Cityside (Yorkgate) location is a state-of-the-art fitness facility that embodies our commitment to providing an exceptional training environment for our members. 
+                    From the moment you step through our doors, <span>you'll be greeted by a vibrant and energetic atmosphere</span>
+                    that inspires you to push your limits and achieve your fitness goals.
+                    <br><br>
+                    Cityside (Yorkgate) gym is equipped with a <span>wide range of cutting-edge fitness</span>
+                    equipment, including free weights, resistance machines, cardio equipment, and functional training areas. 
+                    Whether you're a seasoned athlete or just starting your fitness journey, you'll find everything you need to
+                    challenge yourself and make progress. <span>Our facility is designed to accommodate a variety of training styles 
+                    and preferences, ensuring that every member can find their own path to success.</span>
+                    <br><br>
+                    Beyond the equipment, our Cityside (Yorkgate) location is staffed by a team of passionate and knowledgeable fitness professionals who are dedicated to helping you succeed.
+                    Whether you need guidance on proper form, personalized workout plans, or motivation to stay on track
+                    <span>our team is here to support you every step of the way.</span> 
+                </p>
+                <div class="facility-card">
+                    <div class="facility-img">
+                        <img src="../Images/yorkgateGymShowcase.jpg" alt="Yorkgate Open Gym">        
+                    </div>
+                </div> 
+            </div>
+
+            <div class="facility-grid">   
+                <div class="facility-card">
+                    <div class="facility-img">
+                        <img src="../Images/yorkgateYogaShowcase.png" alt="Yorkgate Yoga Studio">        
+                    </div>
+                </div> 
+                <p>
+                The Yorkgate location also offers a variety of group fitness classes, including yoga, spinning, HIIT, and more.
+                These classes are designed to provide a fun and engaging workout experience while fostering a sense of community
+                among our members. Whether you're looking to improve your flexibility, build strength, or boost your cardiovascular fitness, <span>our group classes offer something for everyone.</span>
+                <br><br>
+                At Cityside (Yorkgate), we believe that fitness is not just about physical health, but also about mental well-being and social connection.
+                That's why we've created a welcoming and inclusive environment where members can connect with like-minded individuals,
+                share their fitness journeys, and support each other in achieving their goals. <span>Our community is at the heart of everything we do, and we strive to create a space where everyone feels valued and empowered.</span>
+                <br><br>
+                In summary, our Cityside (Yorkgate) location is more than just a gym - it's a vibrant fitness community that offers top-notch facilities, expert guidance, and a supportive environment to help you achieve your fitness aspirations.
+                <span>Whether you're looking to get in shape, improve your health, or simply have fun while working out, Cityside (Yorkgate) is the place to be.</span>
+                </p>
+            </div>
+        </section>
+
+        <section id="facilities-video">
+            <video autoplay muted loop playsinline class="bg-video">
+                <source src="../Videos/YorkgateGymFlyThrough.mp4" type="video/mp4">
+            </video>
+
+            <div class="video-overlay">
+                <h1>Welcome to Yorkgate</h1>
+                <p>An exceptional facility where fitness meets excellence</p>
+            </div>
+        </section>
+
+        <section id="facilities-top">
+            <div class="section-title">
+                <h2>MAP</h2>
+            </div>
+
+            <div class="facility-grid">
+                <div class="facility-card">
+                <iframe 
+                    id="facility-map" 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2310.7690315327864!2d-5.92782754865396!3d54.60806140048184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1776158904107!5m2!1sen!2suk" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div> 
+            </div>
+        </section>
+
+        <section id="action-banner">
+            <h2>JOIN OUR ACTIVE MOVEMENT</h2>
+            <p>Open 7 days a week, 365 days a year. We're ready when you are.</p>
+            <a href="Webpages/membership.html" class="sign-up-now">SIGN UP NOW</a>
+        </section>
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">Ulster<span>Active</span></div>
+
+            <div class="footer-links">
+                <!-- Social Media Links, _Blank opens in a new tab -->
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+
+            <p class="footer-copyright">&copy; 2026 UlsterActive Belfast. All rights reserved.</p>
+        </div>
+    </footer> 
+    </body>
+</html>

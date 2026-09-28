@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ==================================================================
+  Timetable page
+  UlsterActive Belfast - Year 1 Coursework - Group 2
+=================================================================== -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UlsterActive Finaghy</title>
+    <link rel="icon" type="image/png" href="../Images/Favicon.ico">
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="../CSS/styles.css"/>
+
+    <!-- Google Fonts Source: Oswald and Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- jQuery Source -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Javascript Source -->
+    <script src="../JavaScript/homePageScripts.js"></script>
+    <script src="../JavaScript/searchbar.js"></script>
+</head>
+
+<body>
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <nav id="navigation-bar">
+
+        <!-- Navigation Logo -->
+        <div class="navigation-logo">
+            <a href="../home.html">Ulster<span>Active</span></a>
+        </div>
+
+        <!-- Navigation links -->
+        <ul id="navigation-links">  
+            
+            <!-- Home -->
+            <li><a href="../home.html">HOME</a></li>
+
+            <!-- Gyms Dropdown -->
+            <li class="has-dropdown">
+                <a href="timetables.html">GYMS ▾</a>
+                <ul class="dropdown">
+                    <li><a href="finaghy.html">Finaghy</a></li>
+                    <li><a href="yorkgate.html">Cityside (Yorkgate)</a></li>
+                    <li><a href="timetables.html">Class Timetable</a></li>
+                </ul>
+            </li>
+
+            <!-- About Dropdown -->
+            <li class="has-dropdown">
+                <a href="about.html">ABOUT ▾</a>
+                <ul class="dropdown">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
+
+            <!-- Membership Form -->
+            <li><a href="membership.html">MEMBERSHIPS</a></li>
+
+            <!-- Contact US Form -->
+            <li><a href="contact.html">CONTACT US</a></li>
+
+        </ul>
+
+        <!-- Search and Join Now -->
+        <div class="nav-actions">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search pages...">
+                <ul id="autocomplete-list" class="autocomplete-list"></ul>
+            </div>
+            <a href="membership.html" class="join-now">JOIN NOW</a>
+        </div>
+
+    </nav>
+
+    <!-- ==================== FINAGHY PAGE ==================== -->
+    <header>
+        <section class="page-banner">
+            <h1>FINAGHY</h1>
+            <p>
+                Our Finaghy location offers a modern, fully equipped space designed for all fitness levels.
+                Whether you're a student, beginner, or experienced gym-goer, you will feel right at home.
+            </p>
+        </section>
+    </header>
+
+    <main>
+        <section id="facilities">
+            <div class="section-title">
+                <h2>GALLERY</h2>
+            </div>
+
+            <div class="facility-grid">   
+                <p>
+                The strength and weight room at UlsterActive Finaghy is designed to be a space 
+                where every member of the community feels empowered to train. 
+                Whether you're an athlete preparing for competition, a beginner learning the fundamentals,
+                or someone simply looking to build confidence and strength, 
+                this area is built to <span>support your journey.</span>
+                We've created an environment that is open, spacious, and 
+                welcoming, ensuring that <span>everyone can move freely and train without 
+                intimidation or pressure. </span>
+                <br><br>
+                At the centre of the room are our five full squat racks, 
+                which form the backbone of the strength area. 
+                These racks are equipped for <span>squats, bench press, deadlifts, 
+                overhead work, and a wide range of functional movements.</span> 
+                Their layout ensures that members rarely have to wait, 
+                allowing athletes and everyday gym goers to train efficiently
+                and consistently. Whether you're following a structured strength 
+                programme or just exploring new movements, the racks provide the 
+                versatility needed for all training styles.
+                <br><br>
+                Surrounding the racks is a full selection of fixed-path resistance machines. 
+                These machines offer controlled, <span>safe movement patterns that are ideal for
+                beginners, those recovering from injury, or anyone looking to 
+                isolate specific muscle groups.</span>
+                </p>
+                <div class="facility-card">
+                    <div class="facility-img">
+                        <img src="../Images/finaghyweightroom.jpg" alt="Open Gym">        
+                    </div>
+                </div> 
+            </div>
+
+            <div class="facility-grid">   
+                <div class="facility-card">
+                    <div class="facility-img">
+                        <img src="../Images/finaghycardio.jpg" alt="Open Gym">        
+                    </div>
+                </div> 
+                <p>
+                The cardio and conditioning zone at Ulster<span>Active</span> Finaghy 
+                is built with one purpose in mind: to create <span>a space where absolutely anyone can
+                move, sweat, and feel their best.</span> Whether you're just beginning your 
+                fitness journey, returning after time away, or 
+                pushing your athletic limits, this area is designed to 
+                support every pace, every goal, and every level of experience. 
+                We believe cardio should be <span>accessible, enjoyable, and adaptable,</span> 
+                and our Finaghy location reflects that philosophy in every detail.
+                <br><br>
+                The cardio zone is spacious and thoughtfully laid out to create an open, 
+                inviting atmosphere. 
+                We understand that stepping into a cardio area can sometimes feel 
+                intimidating, especially for those new to fitness. 
+                That's why we've designed this space to be <span>welcoming and non-judgmental,</span> 
+                where members can focus on their own progress without feeling self-conscious or rushed. 
+                <br><br>
+                Whether you're a student looking to improve your fitness, a beginner taking the first steps towards a
+                healthier lifestyle, or an experienced gym-goer seeking a supportive environment,
+                the cardio and conditioning zone at Finaghy is here to help you <span>move with confidence,</span> 
+                achieve your goals, and feel great doing it.   
+                </p>
+            </div>
+        </section>
+
+        <section id="facilities-video">
+            <video autoplay muted loop playsinline class="bg-video">
+                <source src="../Videos/FinaghyGymFlyThrough.mp4" type="video/mp4">
+            </video>
+
+            <div class="video-overlay">
+                <h1>Welcome to Finaghy</h1>
+                <p>One of our finest gyms in Belfast</p>
+            </div>
+        </section>
+
+        <section id="facilities-top">
+            <div class="section-title">
+                <h2>MAP</h2>
+            </div>
+
+            <div class="facility-grid">
+                <div class="facility-card">
+                <iframe 
+                    id="facility-map" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9253.446501569097!2d-5.9805223!3d54.56237805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861061aaa1a80bd%3A0x5bd24625167bef3a!2sFinaghy%2C%20Belfast!5e0!3m2!1sen!2suk!4v1776158438981!5m2!1sen!2suk" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div> 
+            </div>
+        </section>
+
+        <section id="action-banner">
+            <h2>JOIN OUR ACTIVE MOVEMENT</h2>
+            <p>Open 7 days a week, 365 days a year. Students get over 20% off!</p>
+            <a href="Webpages/membership.html" class="sign-up-now">SIGN UP NOW</a>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">Ulster<span>Active</span></div>
+
+            <div class="footer-links">
+                <!-- Social Media Links, _Blank opens in a new tab -->
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+
+            <p class="footer-copyright">&copy; 2026 UlsterActive Belfast. All rights reserved.</p>
+        </div>
+    </footer> 
+</body>
+</html>
