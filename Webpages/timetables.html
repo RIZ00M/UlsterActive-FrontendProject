@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ==================================================================
+  Timetable page
+  UlsterActive Belfast - Year 1 Coursework - Group 2
+=================================================================== -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UlsterActive Timetables</title>
+    <link rel="icon" type="image/png" href="../Images/Favicon.ico">
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="../CSS/styles.css"/>
+
+    <!-- Google Fonts Source: Oswald and Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- jQuery Source -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Javascript Source -->
+    <script src="../JavaScript/homePageScripts.js"></script>
+    <script src="../JavaScript/searchbar.js"></script>
+</head>
+
+<body>
+    <!-- ==================== NAVIGATION BAR ==================== -->
+    <nav id="navigation-bar">
+
+        <!-- Navigation Logo -->
+        <div class="navigation-logo">
+            <a href="../home.html">Ulster<span>Active</span></a>
+        </div>
+
+        <!-- Navigation links -->
+        <ul id="navigation-links">  
+            
+            <!-- Home -->
+            <li><a href="../home.html">HOME</a></li>
+
+            <!-- Gyms Dropdown -->
+            <li class="has-dropdown">
+                <a href="timetables.html">GYMS ▾</a>
+                <ul class="dropdown">
+                    <li><a href="finaghy.html">Finaghy</a></li>
+                    <li><a href="yorkgate.html">Cityside (Yorkgate)</a></li>
+                    <li><a href="timetables.html">Class Timetable</a></li>
+                </ul>
+            </li>
+
+            <!-- About Dropdown -->
+            <li class="has-dropdown">
+                <a href="about.html">ABOUT ▾</a>
+                <ul class="dropdown">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
+
+            <!-- Membership Form -->
+            <li><a href="membership.html">MEMBERSHIPS</a></li>
+
+            <!-- Contact US Form -->
+            <li><a href="contact.html">CONTACT US</a></li>
+
+        </ul>
+
+        <!-- Search and Join Now -->
+        <div class="nav-actions">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search pages...">
+                <ul id="autocomplete-list" class="autocomplete-list"></ul>
+            </div>
+            <a href="membership.html" class="join-now">JOIN NOW</a>
+        </div>
+
+    </nav>
+
+    <!-- ==================== TIMETABLE PAGE ==================== -->
+    <header>
+        <!-- === PAGE BANNER === -->
+        <section class="page-banner">
+            <h1>ULSTER<span>ACTIVE</span> TIMETABLES</h1>
+            <p>Check out our class schedules and find the perfect time to work out!</p>
+        </section>
+    </header>
+        
+    <main>
+        <section id="timetables">  
+
+        <table id="timetable">
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+
+            <tr>
+                <td>06:00 - 07:00</td>
+                <td>Morning Cardio</td>
+                <td>Morning Cardio</td>
+                <td>Beginner Weights</td>
+                <td>Stretch & Relax</td>
+                <td>advanced Cardio</td>
+                <td>Strength Training</td>
+                <td>Spin Class</td>
+            </tr>
+
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td></td>
+                <td>Beginner Weights</td>
+                <td></td>
+                <td>Beginner Weights</td>
+                <td></td>
+                <td>Stretch & Relax</td>
+                <td></td>
+            </tr>
+    
+    
+            <tr>
+                <td>12:00 - 13:00</td>
+                <td >HIIT</td>
+                <td></td>
+                <td>HIIT</td>
+                <td></td>
+                <td>HIIT</td>
+                <td>Beginner Weights</td>
+                <td>Strength Training</td>
+            </tr>
+    
+    
+            <tr>
+                <td>17:00 - 18:00</td>
+                <td>Strength Training</td>
+                <td>Spin Class</td>
+                <td>Strength Training</td>
+                <td>Spin Class</td>
+                <td>Strength Training</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>19:00 - 20:00</td>
+                <td class="class">Student Fitness</td>
+                <td></td>
+                <td class="class">Student Fitness</td>
+                <td></td>
+                <td class="class">Student Fitness</td>
+                <td class="class">Yoga</td>
+                <td class="class">Yoga</td>
+            </tr>
+        </table>
+        
+        </section>
+
+        <!-- === ACTION BANNER === -->
+        <section id="action-banner">
+            <h2>Students get 20% Off!</h2>
+            <p>Open 7 days a week, 365 days a year. Join our active movement!</p>
+            <a href="membership.html" class="sign-up-now">SIGN UP NOW</a>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">Ulster<span>Active</span></div>
+
+            <div class="footer-links">
+                <!-- Social Media Links, _Blank opens in a new tab -->
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+
+            <p class="footer-copyright">&copy; 2026 UlsterActive Belfast. All rights reserved.</p>
+        </div>
+    </footer> 
+
+    </body>
+</html>
